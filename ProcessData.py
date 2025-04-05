@@ -35,9 +35,7 @@ def main():
     data = line.split()
     firstName = data[0]
     lastName = data[1]
-    email = data[2]
     idnum = data[3]
-    bday = data[4]
     yr = data[5]
     maj = data[6]
     student_id = userID(firstName,lastName,idnum)
